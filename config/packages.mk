@@ -23,7 +23,9 @@ PRODUCT_PACKAGES += \
     LatinIME \
     LineageThemesStub \
     messaging \
-    ThemePicker \ 
+    StitchImage \
+    StitchImageService \
+    ThemePicker \
     Updater
 
 # Packages to add when GApps are omitted from the build
@@ -88,3 +90,12 @@ PRODUCT_PACKAGES += \
 
 # Inherit from sepolicy config
 $(call inherit-product, vendor/candy/config/sepolicy.mk)
+
+# GVM
+PRODUCT_PACKAGES += \
+    GVM-SBH-L \
+    GVM-SBH-M \
+    GVM-SBH-XL \
+    GVM-URM-M \
+    GVM-URM-L \
+    GVM-URM-
