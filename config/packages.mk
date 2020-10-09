@@ -3,11 +3,8 @@ PRODUCT_PACKAGES += \
     bootanimation.zip \
     Gallery2 \
     LatinIME \
-    LiveWallpapers \
-    LiveWallpapersPicker \
     Lawnchair \
     messaging \
-    ThemePicker \
     Updater
 
 # Tools-Candy
@@ -62,3 +59,11 @@ PRODUCT_PACKAGES += \
 # Include Google Sounds for all
 PRODUCT_PACKAGES += \
    SoundPickerPrebuilt
+
+# Pixel Wallpapers
+PRODUCT_PACKAGES += \
+   PixelThemesStub2019 \
+   NexusWallpapersStubPrebuilt2019 \
+   WallpapersBReel2019 \
+   PixelLiveWallpaperPrebuilt \
+   WallpaperPickerGoogleRelease
