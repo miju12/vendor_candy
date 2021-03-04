@@ -20,9 +20,9 @@ PRODUCT_PACKAGES += \
     CandyWrappers \
     Gallery2 \
     LatinIME \
-    Launcher3QuickStep \
-    WallpaperPickerGoogleRelease \
+    Launcher3 \
     messaging \
+    ThemePicker \
     Updater
 
 # Packages to add when GApps are omitted from the build
@@ -31,11 +31,6 @@ PRODUCT_PACKAGES += \
     LivePicker \
     LiveWallpapersPicker
 endif
-
-# Pixel Wallpapers
-PRODUCT_PACKAGES += \
-   PixelThemesStub2019 \
-   PixelLiveWallpaperPrebuiltStatic
 
 # Tools-Candy
 PRODUCT_PACKAGES += \
@@ -88,4 +83,4 @@ PRODUCT_PACKAGES += \
    SoundPickerPrebuilt
 
 # Include Candy theme files
-include vendor/candy/themes/backgrounds/themes.mk
+#include vendor/candy/themes/backgrounds/themes.mk
