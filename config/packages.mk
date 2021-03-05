@@ -19,8 +19,10 @@ PRODUCT_PACKAGES += \
     bootanimation.zip \
     CandyWrappers \
     Gallery2 \
+    Flipendo \
     LatinIME \
     Launcher3 \
+    LineageThemesStub \
     messaging \
     ThemePicker \
     Updater
@@ -84,3 +86,5 @@ PRODUCT_PACKAGES += \
 
 # Include Candy theme files
 #include vendor/candy/themes/backgrounds/themes.mk
+# Inherit from sepolicy config
+$(call inherit-product, vendor/candy/config/sepolicy.mk)
