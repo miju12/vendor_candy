@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     LatinIME \
     LineageThemesStub \
     messaging \
-    ThemePicker \ 
+    ThemePicker \
     Updater
 
 # Packages to add when GApps are omitted from the build
